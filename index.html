@@ -434,12 +434,12 @@
     </main>
     <footer class="footer">
       <div class="container div-footer">
-        <div>
+        <div class="div-logo">
             <a class="logotype link link-footer" href="./index.html">WEB<span class="logo-footer">STUDIO</span> </a>
             <p class="details text">Increase the flow of customers and sales for your business with digital marketing & growth solutions.
             </p>
         </div>
-        <div>
+        <div class="div-soc">
           <p class="text text-soc">Social media</p>
           <ul class="list footer-list">
              <li>
@@ -488,6 +488,21 @@
              </li>
           </ul>
           </div>
+          <div class="footer-subcribe">
+            <p class="text text-soc">Subscribe</p>
+            <div class="div-subcribe">
+              <label class="subcribe-label">
+                <input class="subcribe-input" type="text" name="user_email" id="icon-mail" placeholder="E-mail">
+              </label>
+              <div class="buttun-subcribe-form">
+                <button class="button-subcribe" type="submit">Subscribe
+                  <svg class="svg-ubscribe" width="24" height="20">
+                    <use href="./images/icons.svg#icon-message"></use>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
        </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
@@ -498,7 +513,45 @@
             </use>
           </svg>
         </button>
-      </div>
+        <p class="text-backdrop" >Leave your contacts and we will call you back</p>
+         <form class="order-form" name="order-form" novalidate autocomplete="on">
+          <label class="order-form-label"> Name </label>
+          <div class="order-form-group">
+           <input type="name" class="contact-form-input" name="user-name" id="user-name">
+             <svg class="order-icon" width="24" height="24">
+               <use href="./images/icons.svg#icon-name"></use>
+             </svg>
+          </div>
+          <label class="order-form-label"> Phone </label>
+          <div class="order-form-group">
+           <input type="tell" class="contact-form-input" name="user-phone" id="user-phone">
+             <svg class="order-icon" width="24" height="24">
+               <use href="./images/icons.svg#icon-phone"></use>
+            </svg>
+          </div>
+          <label class="order-form-label"> E-mail </label>
+          <div class="order-form-group">
+           <input type="Email" class="contact-form-input" name="user_email" id="user_email"> 
+            <svg class="order-icon" width="24" height="24">
+               <use href="./images/icons.svg#icon-mail"></use>
+            </svg>
+          </div>
+          <label class="order-form-label"> Coment </label>
+          <textarea class="form-coment text" name="Coment text" id="" rows="5"
+            placeholder="Text input"></textarea>
+        </form>
+        <label class="order-agreement">
+          <input class="checkbox" type="checkbox">
+          <span class="text-checkbox">
+            I accept the terms and conditions of
+          </span>
+          <a class="order-link" href="">the Privacy Policy</a>
+          
+        </label>
+        <button class="button-submit" type="submit">
+               Send
+             </button>
+        </div>
     </div>
 
 

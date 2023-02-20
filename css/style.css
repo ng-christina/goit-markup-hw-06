@@ -860,18 +860,23 @@ right: 24px;
 width: 24px;
 height: 24px;
 
-fill: black;
+color: rgb(214, 37, 37);
 background-color: #E7E9FC;
 border: 1px solid rgba(0, 0, 0, 0.1);
 border-radius: 50%;
 cursor: pointer;
+transition: background-color var(--anim-fast);
 }
 
 
-.modal-btb:hover
 .modal-btb:focus{
-    color: var(--background-blue);
-    border-radius: 4px;
+    background-color: var(--ctas-focusedActive-statesLink);
+}
+.backdrop-icons{
+}
+
+.modal-btb:focus + .backdrop-icons{
+    fill: var(--white);
 }
 
 .text-backdrop{

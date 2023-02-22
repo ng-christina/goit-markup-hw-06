@@ -557,7 +557,7 @@ border: 1px solid var(--background-blue);
     display: flex;
 }
 .div-logo{
-    padding-right: 120px;
+    margin-right: 120px;
 }
 
 .link-footer{
@@ -578,7 +578,7 @@ margin-bottom: 16px;
 }
 
 .div-soc{
-    padding-right: 80px;
+   margin-right: auto
 }
 
 .footer-list{
@@ -610,13 +610,17 @@ fill: var(--white);
     background-color: var(--success);
 }
 
-.footer-subcribe{
-}
-   
 .div-subcribe{
 display: flex;
 gap: 24px;
+margin-right: auto;
 }
+
+.footer-subcribe{
+
+}
+   
+
 
 .subcribe-label{
 
@@ -630,6 +634,7 @@ background-color: transparent;
 border: 1px solid rgba(255, 255, 255, 0.3);
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 border-radius: var(--radius);
+color: var(--white);
 }
 
 .buttun-subcribe-form{
@@ -637,6 +642,7 @@ position: relative;
 }
 
 .button-subcribe{
+    position: relative;
 height: 40px;
 width: 165px;
 
@@ -833,7 +839,6 @@ transition: opacity var(--anim-fast),  visibility var(--anim-fast) ;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     width: 408px;
-    height: 584px;
     padding: 72px 24px 24px 24px;
     background: #FCFCFC;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 
@@ -869,7 +874,8 @@ transition: background-color var(--anim-fast);
 }
 
 
-.modal-btb:focus{
+.modal-btb:focus,
+.modal-btb:hover{
     background-color: var(--ctas-focusedActive-statesLink);
 }
 .backdrop-icons{
@@ -900,7 +906,7 @@ transition: background-color var(--anim-fast);
 .order-form-label{
    
 display: block;
-font-family: 'Roboto';
+font-family: 'Roboto', sans-serif;;
 font-weight: 400;
 font-size: 12px;
 line-height: 0.75;
@@ -944,6 +950,14 @@ transition: var(--anim-fast);
     fill: var(--ctas-focusedActive-statesLink);
 }
 .form-coment{
+    font-family: 'Roboto', sans-serif;;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 0.75;
+    letter-spacing: 0.04em;
+    color: rgba(117, 117, 117, 0.5);
+
     display: block;
     width: 100%;
     min-height: 120px;
@@ -1022,7 +1036,7 @@ transition: var(--anim-fast);
 
 
     .text-checkbox {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;;
     font-size: 12px;
     font-weight: 400;
     line-height: 16px;
@@ -1034,7 +1048,7 @@ transition: var(--anim-fast);
 
     .order-link {
     color: var(--ctas-focusedActive-statesLink);
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;;
     font-size: 12px;
     font-weight: 400;
     line-height: 16px;

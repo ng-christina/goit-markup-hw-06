@@ -900,7 +900,6 @@ transition: background-color var(--anim-fast);
     min-height: 336px;
 }
 .order-form-label{
-   
 display: block;
 font-family: 'Roboto', sans-serif;;
 font-weight: 400;
@@ -909,8 +908,10 @@ line-height: 1.16;
 letter-spacing: 0.04em;
 text-align: left;
 color: var(--subtle-Text);
-
 margin-bottom: 4px;
+}
+.name{
+    line-height: 1.3;
 }
 
 .order-form-group{ 
@@ -950,7 +951,7 @@ transition: var(--anim-fast);
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
-    line-height: 0.75;
+    line-height: 1.3;
     letter-spacing: 0.04em;
     
 
@@ -1034,19 +1035,20 @@ transition: var(--anim-fast);
     font-family: 'Roboto', sans-serif;;
     font-size: 12px;
     font-weight: 400;
-    line-height: 1.3;
+    line-height: 1.33;
     letter-spacing: 0.04em;
     text-align: left;
     user-select: none;
+    color: #757575;
     
     }
 
     .order-link {
     color: var(--ctas-focusedActive-statesLink);
     font-family: 'Roboto', sans-serif;;
-    font-size: 12px;
     font-weight: 400;
-    line-height: 16px;
+    font-size: 12px;
+    line-height: 1.33;
     letter-spacing: 0.04em;
     text-align: left;
     text-decoration: underline;
